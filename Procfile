@@ -1,0 +1,1 @@
+web: gunicorn plurproducciones.wsgi --log-file -

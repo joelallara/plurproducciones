@@ -67,7 +67,6 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'plurproducciones.wsgi.application'
 
 
 # Database
@@ -111,5 +110,3 @@ STATIC_ROOT = ''
 STATIC_URL = '/static/'
 
 STATICFILES_DIRS = ( os.path.join('static'), )
-
-STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
